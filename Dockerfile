@@ -1,5 +1,7 @@
 FROM openjdk:17
 
+MAINTAINER "vibhor"
+
 COPY target/docker-demo.jar /usr/app
 
 WORKDIR /usr/app
